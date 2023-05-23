@@ -15,11 +15,12 @@ const ResponsiveCard = (props) => {
   };
   const NavBar = () => (
     <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-      <Link to="/"><Button className='navButton' variant="contained" color="primary">Home</Button></Link>
-      <Link to="/about"><Button className='navButton' variant="contained" color="primary">About</Button></Link>
-      <Link to="/contact"><Button className='navButton' variant="contained" color="primary">Contact</Button></Link>
+      <Link to="/" style={{ textDecoration: 'none' }}><Button className='navButton' variant="contained" color="primary">Home</Button></Link>
+      <Link to="/about" style={{ textDecoration: 'none' }}><Button className='navButton' variant="contained" color="primary">About</Button></Link>
+      <Link to="/contact" style={{ textDecoration: 'none' }}><Button className='navButton' variant="contained" color="primary">Contact</Button></Link>
     </div>
-  );
+);
+
   let Content;
   switch (location.pathname) {
     case '/about':
