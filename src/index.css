@@ -34,6 +34,7 @@ border: 1px solid rgba(255, 255, 255, 0.3) !important;
   background: rgba(245, 244, 241, 0.4) !important;
   color: rgb(75, 73, 70) !important;
   font-family: 'Coda', cursive !important;
+  border-radius: 8px !important;
 }
 
 .submitBtn {
