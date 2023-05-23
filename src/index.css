@@ -1,0 +1,53 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(242, 223, 190);
+  background: radial-gradient(circle, #f4f1ef 0%, #e4dad0 100%);
+}
+
+.glass {
+background: rgba(255, 255, 255, 0.2) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(5px) !important;
+-webkit-backdrop-filter: blur(5px) !important;
+border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.button {
+  background: rgba(245, 244, 241, 0.4) !important;
+  color: rgb(75, 73, 70) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.navButton {
+  background: rgba(245, 244, 241, 0.4) !important;
+  color: rgb(75, 73, 70) !important;
+  font-family: 'Coda', cursive !important;
+}
+
+.submitBtn {
+  background: rgba(245, 244, 241, 0.4) !important;
+  color: rgb(75, 73, 70) !important;
+  font-family: 'Coda', cursive !important;
+}
+
+
+
+.title {
+  text-align: center !important;
+  color: rgb(75, 73, 70) !important;
+  font-size: 2.5rem !important;
+  font-family: 'Coda', cursive !important;
+  font-weight: 800 !important;
+}
